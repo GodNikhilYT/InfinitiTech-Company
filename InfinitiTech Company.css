@@ -1,0 +1,655 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b7babd;
+}
+
+.educational-website-logo img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+}
+
+.nav {
+    background: rgba(0, 0, 0, 0.7) url('https://th.bing.com/th/id/OIP.mof6ww0DfByDMm-QhVZVygHaEK?w=324&h=182&c=7&r=0&o=5&pid=1.7');
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+}
+
+.main ul li {
+    float: left;
+    margin-top: 6rem;
+    margin-right: 3.1rem;
+    list-style: none;
+}
+
+.main ul {
+    margin-left: 6rem;
+}
+
+.main ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(151, 157, 255);
+}
+
+.main ul li a:hover {
+    color: rgb(52, 83, 90);
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+}
+
+.search {
+    float: right;
+    margin-top: 5.8rem;
+    margin-left: 2rem;
+}
+
+#main-search {
+    height: 3rem;
+    width: 12rem;
+    background: transparent;
+    border: 1.8px solid rgb(151, 157, 255);
+}
+
+#main-search:hover {
+    box-shadow: 0 0 10px rgb(151, 157, 255);
+    background-color: rgb(52, 83, 90);
+}
+
+/*.motivate{
+    background: rgba(0,0,0,0.7) url('https://plus.unsplash.com/premium_photo-1668473367234-fe8a1decd456?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80');
+    background-size: cover;
+    background-blend-mode: darken;
+}*/
+.motivate-jpg img {
+    height: 20rem;
+    width: 30rem;
+    border-radius: 5px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+
+.motivate-jpg img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgb(151, 157, 255);
+}
+
+.motivate {
+    display: flex;
+}
+
+.motivate p {
+    margin-top: 10rem;
+    margin-left: 15rem;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    text-align: center;
+}
+
+#motivate-span {
+    font-size: 3rem;
+}
+
+/***************************************************************************************************************/
+/*                                                    Portfolio                                                */
+/***************************************************************************************************************/
+
+.Portfolio-hading p {
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.Portfolio-hading p:hover {
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(159, 159, 255), 0 0 5px rgb(233, 83, 208);
+}
+
+#Portfolio-graf-span {
+    font-size: 4rem;
+    color: rgb(0, 132, 255);
+}
+
+#Portfolio-graf-span1 {
+    font-size: 3rem;
+    color: rgb(0, 132, 255);
+}
+
+#Portfolio-graf-span1:hover {
+    text-decoration: underline;
+}
+
+.Portfolio-graf p {
+    font-size: x-large;
+    color: rgb(0, 0, 102);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#Portfolio-graf-span2 {
+    font-size: 4rem;
+    color: rgb(0, 2, 3);
+}
+
+#Portfolio-graf-span3 {
+    color: rgb(0, 2, 3);
+}
+
+/**************************************************************************************************************/
+/*                                                    Portfolio-Gallery                                       */
+/**************************************************************************************************************/
+.bg-one {
+    background-image: url('https://media.istockphoto.com/id/1455755410/photo/portrait-of-early-20s-female-stem-student.webp?b=1&s=170667a&w=0&k=20&c=AER5_AqisWHTd8iNrDLF-qwMn4TwPl0eSgcZpG01eMo=');
+}
+
+.bg-two {
+    background-image: url('https://media.istockphoto.com/id/1408255024/photo/developers-discussing-programming-code.webp?b=1&s=170667a&w=0&k=20&c=PubfAY8Hoh8l3D5SUPnA7yZl99Lwv5Dq3ktvyuHqso8=');
+}
+
+.bg-three {
+    background-image: url('https://media.istockphoto.com/id/1157345255/photo/team-of-young-computer-programmers-cooperating-in-the-office.webp?b=1&s=170667a&w=0&k=20&c=CVnOHzqltlKry6hdlWgs_Sp1R6Dx-cu1AVze07-TTH8=');
+}
+
+.bg-four {
+    background-image: url('https://media.istockphoto.com/id/1356364230/photo/young-japanese-man-in-working-on-desktop-computer-diverse-multi-ethnic-team-of-programmers.webp?b=1&s=170667a&w=0&k=20&c=TByiLLI3U3UL-c-aTq62fihMJTCA9FXv5R0kG0fKjr4=');
+}
+
+.bg-five {
+    background-image: url('https://media.istockphoto.com/id/1363276612/photo/lecturer-helps-scholar-with-project-advising-on-their-work-teacher-giving-lesson-to-diverse.webp?b=1&s=170667a&w=0&k=20&c=ApxmAU5Htb9s3-JejcJapqLFZT3a7SO6agWAtUDM4PQ=');
+}
+
+.bg-six {
+    background-image: url('https://media.istockphoto.com/id/1221479375/photo/young-woman-working-from-home.webp?b=1&s=170667a&w=0&k=20&c=UA1OdMC5Mh3CxVu6AzcHMEpbCfLSsvhHyHk3YFb3Vvs=');
+}
+
+.wrapper {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent {
+    width: 350px;
+    margin: 20px;
+    height: 290px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    transition: all 1.1s;
+}
+
+.parent:hover .child {
+    transform: scale(1.2);
+}
+
+/**************************************************************************************************************/
+/*                                                Portfolio-InfinitiTech-view                                 */
+/**************************************************************************************************************/
+.Portfolio-InfinitiTech-view {
+    background: rgba(0, 0, 0, 0.7) url('https://media.istockphoto.com/id/1395100208/photo/hand-pointing-growth-arrow-success-business-target-background-of-up-icon-direction.webp?b=1&s=170667a&w=0&k=20&c=Fh_1ERT8t34XEWnXsE0SZKvVjY1l1PVa7eNF0yQ3UBY=');
+    background-size: cover;
+    background-blend-mode: darken;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.InfinitiTech-hading p {
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.InfinitiTech-hading p:hover {
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(159, 159, 255), 0 0 5px rgb(233, 83, 208);
+}
+
+.InfinitiTech-marquee {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.InfinitiTech-memory1 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.InfinitiTech-memory1 img {
+    height: 330px;
+    width: 500;
+    border-radius: 7px;
+}
+
+.InfinitiTech-memory p {
+    font-size: 40px;
+    color: rgb(100, 0, 82);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.InfinitiTech-memory p:hover {
+    text-decoration: underline;
+}
+
+.InfinitiTech-programming-lamguage img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.InfinitiTech-programming-lamguage img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px -1px rgba(255, 253, 253, 0.62);
+}
+
+.InfinitiTech-programming-hadding p {
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.InfinitiTech-programming-hadding p:hover {
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(159, 159, 255), 0 0 5px rgb(233, 83, 208);
+    text-decoration: underline;
+}
+
+/**************************************************************************************************************/
+/*                                                Staff-photoes-memory                                        */
+/**************************************************************************************************************/
+.Staff {
+    background: rgba(0, 0, 0, 0.7) url('https://media.istockphoto.com/id/1409387557/photo/teamwork-and-partnership-concept-businessman-hold-jigsaw-puzzle-pieces-with-teamwork-icon.jpg?s=612x612&w=0&k=20&c=H_G2lv7NexH14m0y3CZrlbylFAwLZcv0wEQFGh86ew0=');
+    background-size: cover;
+    background-blend-mode: darken;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.Staff-hadding p {
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(159, 159, 255), 0 0 5px rgb(233, 83, 208);
+}
+
+/**************************************************************************************************************/
+/*                                               ************************                                     */
+/*                                               * Staff-photoes-memory *                                     */
+/*                                               *      Gallery         *                                     */
+/*                                               ************************                                     */
+/**************************************************************************************************************/
+.slider {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.slider:hover {
+    transform: scale(1.08);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.782), 0 6px 20px 0 rgba(255, 255, 255, 0.708);
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slider img.active {
+    display: block;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    cursor: pointer;
+}
+
+.slider-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider-btn.next {
+    right: 10px;
+}
+
+.slider-btn.previous {
+    left: 10px;
+}
+
+/**************************************************************************************************************/
+/*                                               ************************                                     */
+/*                                               *      Staff-Graf      *                                     */
+/*                                               ************************                                     */
+/**************************************************************************************************************/
+.Staff-graf {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Staff-graf1 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#Staff-graf2 {
+    font-size: 4rem;
+    color: rgb(0, 132, 255);
+}
+
+.Staff-graf1 p {
+    font-size: x-large;
+    color: rgb(0, 0, 102);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#Staff-graf3 {
+    color: rgb(0, 132, 255);
+}
+
+/**************************************************************************************************************/
+/*                                               ************************                                     */
+/*                                               *       Services       *                                     */
+/*                                               ************************                                     */
+/**************************************************************************************************************/
+.Services-part1 {
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    background-size: cover;
+    background-blend-mode: darken;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.Services-part1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    color: #000000;
+    margin: 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.Services-part1 h2:hover {
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(159, 159, 255), 0 0 5px rgb(233, 83, 208);
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    color: black;
+    margin-right: auto;
+    width: 50%;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.Services-part3 {
+    border: 2px solid black;
+    margin-left: 40px;
+    width: 50vh;
+    height: 25vh;
+    margin-bottom: 37px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Services-part2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Services-part5 p {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.Services-part3:hover {
+    background-color: #0000003c;
+
+}
+
+.Services-part3 h3:hover {
+    text-decoration: underline;
+}
+
+.InfinitiTech-service {
+    width: 112vh;
+    height: 25vh;
+    margin-left: 40px;
+
+}
+
+.InfinitiTech-service p {
+    font-size: 130px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.InfinitiTech-service {
+    background-image: url('https://plus.unsplash.com/premium_photo-1679690708509-a2c29b5726a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZWR1Y2F0aW9uJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60');
+}
+
+/**************************************************************************************************************/
+/*                                               ************************                                     */
+/*                                               *       Contact        *                                     */
+/*                                               ************************                                     */
+/**************************************************************************************************************/
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 75%;
+    margin-left: 80px;
+}
+
+.button {
+    background-color: rgba(22, 174, 220, 0.305);
+    color: black;
+}
+
+.button:hover {
+    background-color: #0780a1;
+    color: white;
+    transform: scale(1.04);
+    border: none;
+}
+
+.conatct {
+    background: url("https://media.istockphoto.com/id/1252809376/photo/japanese-man-at-hand-using-a-smartphone.jpg?s=612x612&w=0&k=20&c=3zUF1981mbU4mN3gmQ8IYWU96HAs1pPEN89WYKw5NAQ=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-hadding {
+    text-align: center;
+    padding-top: 35px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.contact-hadding:hover {
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(159, 159, 255), 0 0 5px rgb(83, 120, 233);
+}
+
+.contact-hadding h2 {
+    font-size: 50px;
+}
+
+.conatct-info-form {
+    display: flex;
+    margin-top: 40px;
+}
+
+.contact-info {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.form {
+    margin-left: 54px;
+    width: 80%;
+}
+
+.Message {
+    text-align: center;
+    font-size: 40px;
+}
+
+.icon-hadding {
+    display: flex;
+    text-align: center;
+    margin-left: 45px;
+}
+
+.hadding {
+    margin: 5px;
+}
+
+.hadding h3 {
+    font-size: 18px;
+}
+
+.Address {
+    margin-top: 10px;
+    margin-bottom: 130px;
+}
+
+.address {
+    text-align: center;
+}
+
+.Full-Name {
+    display: flex;
+}
+
+.Full-Name input {
+    width: 75%;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 6%;
+    background: transparent;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.checkbox input {
+    margin-left: 10px;
+    background: transparent;
+}
+
+.massage-type {
+    display: flex;
+}
+
+.massage-type textarea {
+    width: 60%;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 4%;
+    background: transparent;
+}
+
+/**************************************************************************************************************/
+/*                                               ************************                                     */
+/*                                               *(Infiniti-Tech footer)*                                     */
+/*                                               ************************                                     */
+/**************************************************************************************************************/
+.footer {
+    background-color: #0000009e;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    animation: slide-in 1s ease-out;
+}
+
+.footer-logo img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000000;
+    text-shadow: 2px 2px 4px #7a7a7a;
+}
+
+.footer-info p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
